@@ -1,0 +1,188 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira';
+}
+
+body{
+    position: relative;
+}
+
+a{
+    text-decoration:none;
+}
+
+.nav-item a:hover{
+    text-decoration:none;
+    font-size:26px;
+    transition-duration:0.3s;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    opacity:0.9;
+    text-transform:uppercase;
+    max-height:100px;
+}
+
+.navbar-nav{
+    margin-right:350px;
+}
+
+.nav {
+    background: #fff;
+}
+
+
+.nav-item.active .nav-link {
+    color: #cb356b;
+    font-size:24px;
+}
+
+.nav-link {
+    font-family: 'Saira';
+    font-size: 22px;
+    color:royalblue;
+    font-weight:800;
+    width:max-content;
+}
+
+.navbar-brand{
+    width:50%;
+}
+
+.navbar-brand img{
+    border-radius:50%;
+    width:inherit;
+    max-width:120px;
+}
+
+
+.resume{
+    padding:10px 0 10px 0;
+    border:3px solid;
+
+}
+
+.profile-image img {
+    max-height: 400px;
+    max-width: 400px;
+    margin-bottom:50px;
+}
+
+
+#im {
+    color: darkcyan
+}
+
+.card-max {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.one {
+    padding-top: 150px;
+    position: relative;
+    padding-bottom:10px
+    
+}
+
+.two {
+    padding-top: 100px;
+    position: relative;
+}
+
+
+
+.three {
+    padding-top: 100px;
+    position: relative;
+}
+
+.four {
+    padding-top: 100px;
+    position: relative;
+}
+
+.carousel-item img{
+    max-height: 700px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.carousel-control-prev .fa{
+    color: black;
+}
+
+/*
+    //Default contents css
+padding-top: 100px;
+background: #CB356B; 
+position: relative;
+opacity: 0.65;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B); 
+background: linear-gradient(to right, #BD3F32, #CB356B); 
+}
+*/
+
+
+.yoe h5 {
+
+    font-size: 34px;
+    color:rebeccapurple;
+    left:70px;
+    bottom:60px;
+    
+
+}
+
+.display-2{
+    color:firebrick
+}
+
+@media (max-width: 990px) {
+    .navbar-brand img {
+        width: 50%
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar-brand img {
+        width: 100%
+    }
+}
+
+
+.page-footer{
+    background-color:black;
+}
+
+.page-footer .list-inline-item i{
+    color:darkmagenta;
+
+}
+
+.navbar-collapse {
+    opacity: 1;
+}
+.navbar-collapse .navbar-nav li a:hover {
+    font-weight: bold;
+    color:blue;
+}
+
+.footer-text{
+    color: blue;
+}
+
+.list-inline .list-inline-item i{
+    color:tomato;
+}
