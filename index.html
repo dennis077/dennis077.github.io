@@ -542,7 +542,7 @@
         //smooth scrolling -----------------------
         scroll_link.click(function(e) {
                 e.preventDefault();
-                let url = $('body').find($(this).attr('href')).offset: 50); $('html, body').animate({
+                let url = $('body').find($(this).attr('href')); $('html, body').animate({
                 scrollTop: url
             }, 700);
             return false;
