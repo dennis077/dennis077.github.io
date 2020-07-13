@@ -18,12 +18,12 @@
 
 
     <div class="main-menu">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg ">
             <a class="navbar-brand" href="#"><img src="images/dennis_logo.png" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="fa fa-bars pr-3"></span>
 </button>
-            <div class="collapse navbar-collapse bg-light  pl-3" id="navbarNav">
+            <div class="collapse navbar-collapse  pl-3" id="navbarNav">
                 <div class="mr-auto"></div>
 
                 <ul class="navbar-nav ">
@@ -37,7 +37,7 @@
                         <a class="nav-link scroll" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll" href="#four">Services</a>
+                        <a class="nav-link scroll" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll" href="#contact">Contact me</a>
@@ -132,7 +132,7 @@
             </div>
             <div class="col-lg-2  col-md-2">
 
-                <div class="">
+                <div class="skill-img">
                     <img class="card-img-top card-max img-hover" src="images/HTML5_Logo_256.png" alt="Card image cap">
                     <div class="card-body">
                         
@@ -508,19 +508,22 @@
             <!-- Social buttons -->
             <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item" style="padding:5px">
-                    <i class="fa fa-2x fa-stack-overflow" aria-hidden="true"></i>
+                    <a target="blank" href="https://stackexchange.com/users/13814080/dennis-tirkey">
+                      <i class="fa fa-2x fa-stack-overflow" aria-hidden="true"></i>
+                    </a>
+                </li>
+                
+                <li class="list-inline-item" style=" padding:5px ">
+                    <i class="fa fa-2x fa-github" aria-hidden="true">
+                      <a target="blank" href="https://github.com/dennis077">
+                      </a>   
+                    </i>
                 </li>
                 <li class="list-inline-item" style=" padding:5px ">
-                    <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
-                </li>
-                <li class="list-inline-item" style=" padding:5px ">
-                    <i class="fa fa-2x fa-github" aria-hidden="true"></i>
-                </li>
-                <li class="list-inline-item" style=" padding:5px ">
-                    <i class="fa fa-2x fa-google-plus-official" aria-hidden="true"></i>
-                </li>
-                <li class="list-inline-item" style=" padding:5px ">
-                    <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+                  <a target="blank" href="https://www.linkedin.com/in/dennis-tirkey-0aaba7187/">
+                  <i class="fa fa-2x fa-linkedin aria-hidden="true">
+                  </i>
+                  </a>
                 </li>
 
             </ul>
@@ -531,7 +534,7 @@
 
         <!-- Copyright -->
         <div class="footer-copyright footer-text text-center py-3">© 2020 Copyright:
-        <span class="">profile4dennis.com</span>
+        <span class=""><a target="new" href="https://dcode4world2020.wixsite.com/site">D-Codes</a></span>
         </div>
         <!-- Copyright -->
 
@@ -542,21 +545,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 
-
-<script>
-    $(document).ready(function() {
-        let scroll_link = $('.scroll');
-
-        //smooth scrolling -----------------------
-        scroll_link.click(function(e) {
-                e.preventDefault();
-                let url = $('body').find($(this).attr('href')); $('html, body').animate({
-                scrollTop: url
-            }, 700);
-            return false;
-        });
-    });
-</script>
 </body>
 
 </html>

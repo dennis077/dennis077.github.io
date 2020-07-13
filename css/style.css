@@ -24,19 +24,21 @@ a{
 }
 
 .navbar{
-    opacity:0.9;
     text-transform:uppercase;
     max-height:100px;
+    background-color: white;
+    opacity: 0.8;
 }
 
 .navbar-nav{
+    background-color: white;
     margin-right:350px;
 }
 
-.nav {
-    background: #fff;
+.collapse{
+    background-color: white;
+    
 }
-
 
 .nav-item.active .nav-link {
     color: #cb356b;
@@ -46,7 +48,6 @@ a{
 .nav-link {
     font-family: 'Saira';
     font-size: 22px;
-    color:royalblue;
     font-weight:800;
     width:max-content;
 }
@@ -83,6 +84,12 @@ a{
     max-height: 150px;
     max-width: 150px;
 }
+
+.img-hover:hover{
+    opacity: 0.7;
+    transition-duration: 0.2s;
+}
+
 
 .one {
     padding-top: 150px;
